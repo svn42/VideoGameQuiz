@@ -1,0 +1,97 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Video Game Quiz</string>
+    <string name="userName">Name</string>
+    <string name="welcome">Welcome to the Video Game Quiz!</string>
+    <string name="enterName">What is your Name?</string>
+    <string name="check">Check Answers</string>
+    <string name="share">Share Result</string>
+
+    <string name="shareMsg">Hey! I completed the Video Game Quiz with <xliff:g example="2" id="correctAnswers">%2d</xliff:g> correct answers. Can you do it better? Try it on https://www.google.de</string>
+
+
+    <!-- summary -->
+    <string name="summary">Quiz Results</string>
+    <string name="summaryQuestion1">Question 1: <xliff:g example="true" id="correct">%b</xliff:g></string>
+    <string name="summaryQuestion2">Question 2: <xliff:g example="true" id="correct">%b</xliff:g></string>
+    <string name="summaryQuestion3">Question 3: <xliff:g example="true" id="correct">%b</xliff:g></string>
+    <string name="summaryQuestion4">Question 4: <xliff:g example="true" id="correct">%b</xliff:g></string>
+    <string name="summaryQuestion5">Question 5: <xliff:g example="true" id="correct">%b</xliff:g></string>
+    <string name="summaryQuestion6">Question 6: <xliff:g example="true" id="correct">%b</xliff:g></string>
+    <string name="summaryQuestion7">Question 7: <xliff:g example="true" id="correct">%b</xliff:g></string>
+    <string name="summaryQuestion8">Question 8: <xliff:g example="true" id="correct">%b</xliff:g></string>
+
+    <!-- Toast Strings -->
+    <string name="toastBad">"Try again, <xliff:g example="Sven" id="userName">%1s</xliff:g>! You only had <xliff:g example="2" id="correctAnswers">%2d</xliff:g> of 8 correct."</string>
+    <string name="toastGood">Good job, <xliff:g example="Sven" id="userName">%1s</xliff:g>! You had <xliff:g example="2" id="correctAnswers">%2d</xliff:g> of 8 correct.</string>
+    <string name="toastPerfect">"Perfect, <xliff:g example="Sven" id="userName">%1s</xliff:g>! You had <xliff:g example="2" id="correctAnswers">%2d</xliff:g> of 8 correct."</string>
+    <string name="questionForgotten">"<xliff:g example="Sven" id="userName">%s</xliff:g>, you have to answer every question! </string>
+    <string name="nameForgotten">You have to enter your name!</string>
+
+    <!-- Question Strings-->
+    <string name="question1Tag">Question 1</string>
+    <string name="question2Tag">Question 2</string>
+    <string name="question3Tag">Question 3</string>
+    <string name="question4Tag">Question 4</string>
+    <string name="question5Tag">Question 5</string>
+    <string name="question6Tag">Question 6</string>
+    <string name="question7Tag">Question 7</string>
+    <string name="question8Tag">Question 8</string>
+
+    <string name="question1">Which is the best selling video game ever?</string>
+    <string name="question2">Which is the best selling video game for PC?</string>
+    <string name="question3">What is the name of the princess, who needs to be rescued by Mario?</string>
+    <string name="question4">Which video console is not produced by Nintendo?</string>
+    <string name="question5">What happens if you are getting to close to a Creeper in Minecraft?</string>
+    <string name="question6">What kind of game is Rocket League?</string>
+    <string name="question7">WoW, Starcraft, Diablo and Hearthstone were developed by... </string>
+    <string name="question8">How many players build a team in League of Legends?</string>
+
+    <!-- Answer Strings-->
+    <!-- Answer1 Strings-->
+    <string name="answerq1a" translatable="false">GTA V</string>
+    <string name="answerq1b" translatable="false">Super Mario Bros.</string>
+    <string name="answerq1c" translatable="false">Tetris</string>  <!-- Correct-->
+    <string name="answerq1d" translatable="false">Pokemon Red and Blue</string>
+
+    <!-- Answer2 Strings-->
+    <string name="answerq2a" translatable="false">Minecraft</string> <!-- Correct-->
+    <string name="answerq2b" translatable="false">The Sims</string>
+    <string name="answerq2c" translatable="false">World of Warcraft</string>
+    <string name="answerq2d" translatable="false">Age of Empires III</string>
+
+    <!-- Answer3 Strings-->
+    <string name="answerq3a" translatable="false">Zelda</string>
+    <string name="answerq3b" translatable="false">Peach</string> <!-- Correct-->
+    <string name="answerq3c" translatable="false">Apple</string>
+    <string name="answerq3d" translatable="false">Leyla</string>
+
+    <!-- Answer4 Strings-->
+    <string name="answerq4a" translatable="false">Gamecube</string>
+    <string name="answerq4b" translatable="false">N64</string>
+    <string name="answerq4c" translatable="false">Gameboy</string>
+    <string name="answerq4d" translatable="false">Playstation</string> <!-- Correct-->
+
+    <!-- Answer5 Strings-->
+    <string name="answerq5a">It befriends with you.</string>
+    <string name="answerq5b">It is going to punch you.</string>
+    <string name="answerq5c">It is going to explode.</string> <!-- Correct-->
+    <string name="answerq5d">It is trying to escape from you.</string>
+
+    <!-- Answer6 Strings-->
+    <string name="answerq6a">Soccer with rocket-powered cars.</string> <!-- Correct-->
+    <string name="answerq6b">First-person shooter with rockets.</string>
+    <string name="answerq6c">Space simulation, where you need to be the first team, which reaches the Mars.</string>
+    <string name="answerq6d">Futuristic version of a MOBA (e.g. League of Legends). </string>
+
+    <!-- Answer7 Strings-->
+    <string name="answerq7a" translatable="false">Bluehole</string>
+    <string name="answerq7b" translatable="false">Electronic Arts</string>
+    <string name="answerq7c" translatable="false">Blizzard</string> <!-- Correct-->
+    <string name="answerq7d" translatable="false">Ubisoft</string>
+
+    <!-- Answer8 Strings-->
+    <string name="answerq8a" translatable="false">3</string>
+    <string name="answerq8b" translatable="false">4</string>
+    <string name="answerq8c" translatable="false">5</string> <!-- Correct-->
+    <string name="answerq8d" translatable="false">10</string>
+</resources>

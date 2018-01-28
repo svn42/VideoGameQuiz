@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="titleSize">24sp</dimen>
+    <dimen name="questionTagSize">20sp</dimen>
+    <dimen name="questionSize">18sp</dimen>
+    <dimen name="textSize">16sp</dimen>
+    <dimen name="marginBig">24dp</dimen>
+    <dimen name="marginMedium">16dp</dimen>
+    <dimen name="marginSmall">8dp</dimen>
+    <dimen name="marginVerySmall">2dp</dimen>
+    <dimen name="lineWidth">1dp</dimen>
+</resources>

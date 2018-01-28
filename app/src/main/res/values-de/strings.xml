@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Video Game Quiz</string>
+    <string name="userName">Name</string>
+    <string name="welcome">Willkommen zum Video Game Quiz!</string>
+    <string name="enterName">Wie ist dein Name?</string>
+
+
+    <string name="answerq5a">Er wird zu deinem Freund.</string>
+    <string name="answerq5b">Er wird dich schlagen.</string>
+    <string name="answerq5c">Er wird explodieren.</string>
+    <string name="answerq5d">Er versucht zu flüchten.</string>
+    <string name="answerq6a">Fußball mit raketenbetriebenen Autos.</string>
+    <string name="answerq6b">Ego-Shooter mit Raketen.</string>
+    <string name="answerq6c">Weltraum-Simulation, in der man das erste Team sein muss, das den Mars erreicht.</string>
+    <string name="answerq6d">Futuristische Version eines MOBA (z.B. League of Legends).</string>
+    <string name="question8">Wie viele Spieler bilden ein Team in League of Legends?</string>
+    <string name="question7">"WoW, Starcraft, Diablo und Hearthstone wurden entwickelt von... "</string>
+    <string name="question6">Was für ein Spiel ist Rocket League?</string>
+    <string name="question5">Was passiert, wenn du dich einem Creeper in Minecraft näherst?</string>
+    <string name="question4">Welche Videokonsole wurde nicht von Nintendo hergestellt?</string>
+    <string name="question3">Wie heißt die Prinzessin, die von Mario gerettet werden muss?</string>
+    <string name="question2">Welches ist das am meisten verkaufte Videospiel für den PC?</string>
+    <string name="question1">Welches ist das am meisten verkaufte Videospiel aller Zeiten?</string>
+    <string name="question1Tag">Frage 1</string>
+    <string name="question2Tag">Frage 2</string>
+    <string name="question3Tag">Frage 3</string>
+    <string name="question4Tag">Frage 4</string>
+    <string name="question5Tag">Frage 5</string>
+    <string name="question6Tag">Frage 6</string>
+    <string name="question7Tag">Frage 7</string>
+    <string name="question8Tag">Frage 8</string>
+    <string name="check">Überprüfe Antworten</string>
+    <string name="summary">Quiz Ergebnisse</string>
+    <string name="summaryQuestion1">Frage 1: <xliff:g id="correct" example="true">%b</xliff:g></string>
+    <string name="summaryQuestion2">Frage 2: <xliff:g id="correct" example="true">%b</xliff:g></string>
+    <string name="summaryQuestion3">Frage 3: <xliff:g id="correct" example="true">%b</xliff:g></string>
+    <string name="summaryQuestion4">Frage 4: <xliff:g id="correct" example="true">%b</xliff:g></string>
+    <string name="summaryQuestion5">Frage 5: <xliff:g id="correct" example="true">%b</xliff:g></string>
+    <string name="summaryQuestion6">Frage 6: <xliff:g id="correct" example="true">%b</xliff:g></string>
+    <string name="summaryQuestion7">Frage 7: <xliff:g id="correct" example="true">%b</xliff:g></string>
+    <string name="summaryQuestion8">Frage 8: <xliff:g id="correct" example="true">%b</xliff:g></string>
+    <string name="toastBad">Versuch es nochmal, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hast nur <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 8 richtig.</string>
+    <string name="toastGood">Gut gemacht, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hatst <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 8 richtig.</string>
+    <string name="toastPerfect">Perfekt, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hast <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 8 richtig.</string>
+    <string name="nameForgotten">Du musst einen Namen angeben!</string>
+    <string name="questionForgotten">"<xliff:g id="userName" example="Sven">%s</xliff:g>, du musst jede Frage beantworten! "</string>
+    <string name="share">Ergebnis Teilen</string>
+    <string name="shareMsg">Hi! Ich habe das Video Game Quiz mit <xliff:g example="2" id="correctAnswers">%2d</xliff:g> richtigen Antworten abgeschlossen. Kannst du es besser? Versuche es auf  https://www.google.de</string>
+</resources>
