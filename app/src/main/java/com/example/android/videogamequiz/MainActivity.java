@@ -20,14 +20,37 @@ public class MainActivity extends AppCompatActivity {
     String userName;
     int correctAnswers;
 
+    RadioGroup rg1;
+    RadioGroup rg2;
+    RadioGroup rg3;
+    RadioGroup rg4;
+    RadioGroup rg5;
+    RadioGroup rg6;
+    RadioGroup rg7;
+    RadioGroup rg8;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        setup();
         // accomplishes that the android Keyboard is not shown, after switching the oriantation from portrait do landscape
         this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
     }
 
+
+    public void setup (){
+        //the 8 RadioGroups are assigned to local variables, which are needed to check, if the user
+        //answered the question and if the answer is correct
+        rg1= findViewById(R.id.question1);
+         rg2 = findViewById(R.id.question2);
+         rg3 = findViewById(R.id.question3);
+         rg4 = findViewById(R.id.question4);
+         rg5 = findViewById(R.id.question5);
+         rg6 = findViewById(R.id.question6);
+         rg7 = findViewById(R.id.question7);
+         rg8 = findViewById(R.id.question8);
+    }
     /**
      * This method is called when the check answers button is clicked.
      * 1. Checks, if the user set a Name
@@ -48,17 +71,6 @@ public class MainActivity extends AppCompatActivity {
         correctAnswers = 0;
         //this int counts the number of questions, which has been answered
         int questionsAnswered = 0;
-
-        //the 8 RadioGroups are assigned to local variables, which are needed to check, if the user
-        //answered the question and if the answer is correct
-        RadioGroup rg1 = findViewById(R.id.question1);
-        RadioGroup rg2 = findViewById(R.id.question2);
-        RadioGroup rg3 = findViewById(R.id.question3);
-        RadioGroup rg4 = findViewById(R.id.question4);
-        RadioGroup rg5 = findViewById(R.id.question5);
-        RadioGroup rg6 = findViewById(R.id.question6);
-        RadioGroup rg7 = findViewById(R.id.question7);
-        RadioGroup rg8 = findViewById(R.id.question8);
 
         //if the nameField is not empty
         if (!nameField.getText().toString().equals("")) {
