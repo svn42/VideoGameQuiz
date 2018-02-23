@@ -9,4 +9,74 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColor">#151616</item>
     </style>
+
+    <style name="QuestionHeadline">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/light_gray</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:paddingTop">@dimen/marginSmall</item>
+        <item name="android:paddingBottom">@dimen/marginSmall</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/questionTagSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Question">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/light_gray</item>
+        <item name="android:paddingRight">@dimen/marginSmall</item>
+        <item name="android:paddingLeft">@dimen/marginSmall</item>
+        <item name="android:textSize">@dimen/questionSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="BlackLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/lineWidth</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <style name="DarkGrayLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/lineWidth</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="QuestionLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">@dimen/marginMedium</item>
+        <item name="android:layout_marginTop">@dimen/marginMedium</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="MatchParentWidthAndHeight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="QuestionSummary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/marginSmall</item>
+        <item name="android:paddingBottom">@dimen/marginSmall</item>
+    </style>
+
+    <style name="RadioGroupStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:paddingLeft">@dimen/marginSmall</item>
+        <item name="android:paddingRight">@dimen/marginSmall</item>
+    </style>
+
 </resources>

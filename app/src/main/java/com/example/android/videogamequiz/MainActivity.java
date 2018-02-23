@@ -160,7 +160,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
-
             //if the 6th group is answered
             if (rg6.getCheckedRadioButtonId() != -1) {
                 questionsAnswered++;
