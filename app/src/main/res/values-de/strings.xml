@@ -41,7 +41,7 @@
     <string name="summaryQuestion7">Frage 7: <xliff:g id="correct" example="true">%b</xliff:g></string>
     <string name="summaryQuestion8">Frage 8: <xliff:g id="correct" example="true">%b</xliff:g></string>
     <string name="toastBad">Versuch es nochmal, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hast nur <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 8 richtig.</string>
-    <string name="toastGood">Gut gemacht, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hatst <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 8 richtig.</string>
+    <string name="toastGood">Gut gemacht, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hast <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 8 richtig.</string>
     <string name="toastPerfect">Perfekt, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hast <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 8 richtig.</string>
     <string name="nameForgotten">Du musst einen Namen angeben!</string>
     <string name="questionForgotten">"<xliff:g id="userName" example="Sven">%s</xliff:g>, du musst jede Frage beantworten! "</string>
