@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioGroup;
 import android.widget.TextView;
@@ -28,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
     RadioGroup rg6;
     RadioGroup rg7;
     RadioGroup rg8;
+    CheckBox cb9a;
+    CheckBox cb9b;
+    CheckBox cb9c;
+    CheckBox cb9d;
+    EditText et1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,18 +45,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    public void setup (){
+    public void setup() {
         //the 8 RadioGroups are assigned to local variables, which are needed to check, if the user
         //answered the question and if the answer is correct
-        rg1= findViewById(R.id.question1);
-         rg2 = findViewById(R.id.question2);
-         rg3 = findViewById(R.id.question3);
-         rg4 = findViewById(R.id.question4);
-         rg5 = findViewById(R.id.question5);
-         rg6 = findViewById(R.id.question6);
-         rg7 = findViewById(R.id.question7);
-         rg8 = findViewById(R.id.question8);
+        rg1 = findViewById(R.id.question1);
+        rg2 = findViewById(R.id.question2);
+        rg3 = findViewById(R.id.question3);
+        rg4 = findViewById(R.id.question4);
+        rg5 = findViewById(R.id.question5);
+        rg6 = findViewById(R.id.question6);
+        rg7 = findViewById(R.id.question7);
+        rg8 = findViewById(R.id.question8);
+        //the checkboxs are assigned to local variables
+        cb9a = findViewById(R.id.checkbox9a);
+        cb9b = findViewById(R.id.checkbox9b);
+        cb9c = findViewById(R.id.checkbox9c);
+        cb9d = findViewById(R.id.checkbox9d);
+        //the edittext od question 10 is assigned to a local variable
+        et1 = findViewById(R.id.answerq10);
+
     }
+
     /**
      * This method is called when the check answers button is clicked.
      * 1. Checks, if the user set a Name
@@ -205,8 +220,38 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
+            //if the 9th group is answered
+            if (cb9a.isChecked() || cb9b.isChecked() || cb9c.isChecked() || cb9d.isChecked()){
+                questionsAnswered++;
+                TextView sq9 = findViewById(R.id.summaryQuestion9);
+                if (cb9a.isChecked() && cb9c.isChecked()) {
+                    correctAnswers++;
+                    sq9.setText(getString(R.string.summaryQuestion9, true));
+                    sq9.setTextColor(Color.GREEN);
+                } else {
+                    sq9.setText(getString(R.string.summaryQuestion9, false));
+                    sq9.setTextColor(Color.RED);
+                }
+            }
+
+            //if the 10th question is answered
+            if (!et1.getText().toString().equals("")) {
+                questionsAnswered++;
+                TextView sq10 = findViewById(R.id.summaryQuestion10);
+
+                if (et1.getText().toString().equals("Luigi")) {
+                    correctAnswers++;
+                    sq10.setText(getString(R.string.summaryQuestion10, true));
+                    sq10.setTextColor(Color.GREEN);
+                } else {
+                    sq10.setText(getString(R.string.summaryQuestion10, false));
+                    sq10.setTextColor(Color.RED);
+                }
+            }
+
+
             //if every question was answered
-            if (questionsAnswered == 8) {
+            if (questionsAnswered == 10) {
                 //create the toast message with the result
                 createToast();
                 //makes the quiz results and the share button visible
@@ -242,9 +287,9 @@ public class MainActivity extends AppCompatActivity {
         //Try again
         if (correctAnswers < 5)
             toastString = getString(R.string.toastBad, userName, correctAnswers);
-        else if (correctAnswers > 4 && correctAnswers < 8)
+        else if (correctAnswers > 4 && correctAnswers < 10)
             toastString = getString(R.string.toastGood, userName, correctAnswers);
-        else if (correctAnswers == 8)
+        else if (correctAnswers == 10)
             toastString = getString(R.string.toastPerfect, userName, correctAnswers);
         Toast.makeText(this, toastString,
                 Toast.LENGTH_LONG).show();

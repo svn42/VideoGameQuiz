@@ -40,11 +40,22 @@
     <string name="summaryQuestion6">Frage 6: <xliff:g id="correct" example="true">%b</xliff:g></string>
     <string name="summaryQuestion7">Frage 7: <xliff:g id="correct" example="true">%b</xliff:g></string>
     <string name="summaryQuestion8">Frage 8: <xliff:g id="correct" example="true">%b</xliff:g></string>
-    <string name="toastBad">Versuch es nochmal, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hast nur <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 8 richtig.</string>
-    <string name="toastGood">Gut gemacht, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hast <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 8 richtig.</string>
-    <string name="toastPerfect">Perfekt, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hast <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 8 richtig.</string>
+    <string name="toastBad">Versuch es nochmal, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hast nur <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 10 richtig.</string>
+    <string name="toastGood">Gut gemacht, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hast <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 10 richtig.</string>
+    <string name="toastPerfect">Perfekt, <xliff:g example="Sven" id="userName">%1s</xliff:g>! Du hast <xliff:g example="2" id="correctAnswers">%2d</xliff:g> von 10 richtig.</string>
     <string name="nameForgotten">Du musst einen Namen angeben!</string>
     <string name="questionForgotten">"<xliff:g id="userName" example="Sven">%s</xliff:g>, du musst jede Frage beantworten! "</string>
     <string name="share">Ergebnis Teilen</string>
     <string name="shareMsg">Hi! Ich habe das Video Game Quiz mit <xliff:g example="2" id="correctAnswers">%2d</xliff:g> richtigen Antworten abgeschlossen. Kannst du es besser? Versuche es auf  https://www.google.de</string>
+    <string name="enterAnswer">Gib deine Antwort an...</string>
+    <string name="summaryQuestion9">Frage 9: <xliff:g example="true" id="correct">%b</xliff:g></string>
+    <string name="summaryQuestion10">Frage 10: <xliff:g example="true" id="correct">%b</xliff:g></string>
+    <string name="question9Tag">Frage 9</string>
+    <string name="question9">Welche dieser Pokemon sind Starter Pokemon?</string>
+    <string name="answerq9a">Bisasam</string>
+    <string name="answerq9b">Rattfratz</string>
+    <string name="answerq9c">Glumanda</string>
+    <string name="answerq9d">Taubsi</string>
+    <string name="question10">Wie ist der Name von Marios Bruder aus den Super Mario Spielen?</string>
+    <string name="question10Tag">Frage 10</string>
 </resources>

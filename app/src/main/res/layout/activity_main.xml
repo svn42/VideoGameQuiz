@@ -10,12 +10,14 @@
     Thus the app won't jump to the Edittext, after changing the orientation
     -->
     <LinearLayout
+        android:id="@+id/focus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/marginMedium"
         android:background="@color/colorPrimaryDark"
         android:clickable="true"
         android:focusable="true"
+        android:focusableInTouchMode="true"
         android:orientation="vertical">
 
         <TextView
@@ -36,14 +38,16 @@
             android:layout_height="wrap_content"
             android:background="@android:color/white"
             android:hint="@string/enterName"
-            android:imeOptions="flagNoFullscreen"
+            android:imeOptions="flagNoFullscreen|actionDone"
             android:inputType="textCapWords"
             android:paddingBottom="@dimen/marginSmall"
             android:paddingLeft="@dimen/marginSmall"
             android:paddingRight="@dimen/marginSmall"
             android:paddingStart="@dimen/marginSmall"
             android:paddingTop="@dimen/marginSmall"
-            android:textSize="@dimen/questionTagSize" />
+            android:textSize="@dimen/questionTagSize"
+            android:nextFocusUp="@id/focus"
+            android:nextFocusLeft="@id/focus"/>
 
         <!-- First Question -->
         <LinearLayout style="@style/QuestionLinearLayout">
@@ -485,6 +489,102 @@
             </RadioGroup>
         </LinearLayout>
 
+        <!-- Ninth Question -->
+        <LinearLayout style="@style/QuestionLinearLayout">
+
+            <TextView
+                style="@style/QuestionHeadline"
+                android:text="@string/question9Tag" />
+
+            <View style="@style/BlackLine" />
+
+            <!-- Image-Reference: https://i.pinimg.com/originals/cd/b1/7b/cdb17b6981e1cdcfdb6a861ec128085a.png -->
+            <ImageView
+                style="@style/Image"
+                android:src="@drawable/poke" />
+
+            <View style="@style/BlackLine" />
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/question9" />
+
+            <View style="@style/BlackLine" />
+
+                <CheckBox
+                    style="@style/MatchParentWidthAndHeight"
+                    android:id="@+id/checkbox9a"
+                    android:text="@string/answerq9a"
+                    android:background="@android:color/white"/>
+
+            <View style="@style/DarkGrayLine" />
+
+            <CheckBox
+                style="@style/MatchParentWidthAndHeight"
+                android:id="@+id/checkbox9b"
+                android:text="@string/answerq9b"
+                android:background="@android:color/white"/>
+
+            <View style="@style/DarkGrayLine" />
+
+            <CheckBox
+                style="@style/MatchParentWidthAndHeight"
+                android:id="@+id/checkbox9c"
+                android:text="@string/answerq9c"
+                android:background="@android:color/white"/>
+
+            <View style="@style/DarkGrayLine" />
+
+            <CheckBox
+                style="@style/MatchParentWidthAndHeight"
+                android:id="@+id/checkbox9d"
+                android:text="@string/answerq9d"
+                android:background="@android:color/white"/>
+
+
+        </LinearLayout>
+
+        <!-- Tenth Question -->
+        <LinearLayout style="@style/QuestionLinearLayout">
+
+            <TextView
+                style="@style/QuestionHeadline"
+                android:text="@string/question10Tag" />
+
+            <View style="@style/BlackLine" />
+
+            <!-- Image-Reference: https://aff5fa4925746bf9c161-fb36f18ca122a30f6899af8eef8fa39b.ssl.cf5.rackcdn.com/images/Masthead_luigi.17345b1513ac044897cfc243542899dce541e8dc.9afde10b.png -->
+            <ImageView
+                style="@style/Image"
+                android:src="@drawable/luigi" />
+
+            <View style="@style/BlackLine" />
+
+            <TextView
+                style="@style/Question"
+                android:text="@string/question10" />
+
+            <View style="@style/BlackLine" />
+
+            <EditText
+                android:id="@+id/answerq10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:hint="@string/enterAnswer"
+                android:imeOptions="flagNoFullscreen|actionDone"
+                android:inputType="textCapWords"
+                android:paddingBottom="@dimen/marginSmall"
+                android:paddingLeft="@dimen/marginSmall"
+                android:paddingRight="@dimen/marginSmall"
+                android:paddingStart="@dimen/marginSmall"
+                android:paddingTop="@dimen/marginSmall"
+                android:textSize="@dimen/questionTagSize"
+                android:nextFocusUp="@id/focus"
+                android:nextFocusLeft="@id/focus"/>
+
+        </LinearLayout>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -568,6 +668,18 @@
 
             <TextView
                 android:id="@+id/summaryQuestion8"
+                style="@style/QuestionSummary" />
+
+            <View style="@style/DarkGrayLine" />
+
+            <TextView
+                android:id="@+id/summaryQuestion9"
+                style="@style/QuestionSummary" />
+
+            <View style="@style/DarkGrayLine" />
+
+            <TextView
+                android:id="@+id/summaryQuestion10"
                 style="@style/QuestionSummary" />
 
         </LinearLayout>
